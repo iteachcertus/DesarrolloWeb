@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <title>Operaciones Matemáticas</title>
+ </head>  
+ <body>
+    <h4>Bienvenido a la clase de Javascript</h4>
+    <p id="mensaje" style="color: blue; width: fit-content;">Esto es un párrafo</p>
+
+    <div id="opcion"></div>
+    <div id="resultado"></div>
+    
+   <!-- <script>
+        document.getElementById('mensaje').innerHTML = "Instituto CERTUS";
+        //Escribir un elemento en posicón direcatamente de la página
+        document.write("<div style='background-color: green;'>Welcome </div>");
+        console.log('Este es un log de prueba.');
+
+    </script>
+-->
+
+    <script>
+        // Definir la variable llamada numero1 que es tipo numérica y entera
+        var valor1 = 100;
+        // Definir la variable llamada numero2 que es tipo numérica y entera
+        var $valor2 = 6;
+        // Realizar operación
+        var resultado = (valor1/5)*2 - ($valor2+5); 
+        //alert('El resultado es : ' + resultado);
+        document.getElementById('resultado').innerHTML = "Resultado de la operación: " +resultado;
+        var instituto = "CERTUS";
+        document.getElementById('opcion').innerHTML = "Hola estudiantes de " + instituto;
+
+    </script>
+ </body>
+</html>
