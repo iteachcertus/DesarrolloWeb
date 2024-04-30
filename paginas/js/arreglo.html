@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>    
+<body>
+        <div id="resultado">
+
+        </div>
+         <script>
+            var arreglo = [100, 200, 600, 400, 500, 300];
+
+            document.getElementById('resultado').innerHTML = 'Resultado de mi operación de arreglos: ' + 
+            sumarNumeros(arreglo[0], arreglo[5], arreglo[3]);
+            
+            function sumarNumeros(valor1, valor2, valor3)
+            {
+                var suma = valor1 + valor2*valor3;
+                return suma;
+                
+            }
+         </script>
+        
+</body>
+</html>
